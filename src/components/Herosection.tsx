@@ -19,7 +19,7 @@ function HeroSection() {
     <Link href={'/courses'}>
      <Button
      borderRadius='1.73rem'
-     className="bg-slate-400 dark:bg-slate-900 text-white dark:text-white border-black dark:border-slate-800"
+     className="bg-black-10 dark:bg-slate-900 text-white dark:text-white border-black dark:border-slate-800"
      >
      Explore courses
      </Button>

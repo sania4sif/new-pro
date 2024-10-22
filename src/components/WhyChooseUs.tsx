@@ -1,5 +1,6 @@
+'use client'
 import React from 'react'
-import { StickyScroll } from './ui/stickey-scroll-reveal';
+import { StickyScroll } from './ui/stickey-scroll-reveal'
 
 const content = [
     {
@@ -44,11 +45,12 @@ const content = [
     },
   ];
 
-  const WhyChooseUs = () => {
-    return (
-      <div>
-        <StickyScroll content={content}/>
-      </div>
-    )
-  }
-  export default WhyChooseUs
+const WhyChooseUs = () => {
+  return (
+    <div>
+    <StickyScroll content={content} />
+    </div>
+  )
+}
+
+export default WhyChooseUs
